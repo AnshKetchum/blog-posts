@@ -1,0 +1,577 @@
+typedef char __nv_bool;
+# 2785 "/usr/include/driver_types.h" 3
+struct CUstream_st;
+# 535 "/usr/include/c++/12/bits/cpp_type_traits.h" 3
+struct _ZSt24__is_memcmp_ordered_withISt4byteS0_Lb1EE;
+# 196 "/usr/include/c++/12/bits/utility.h" 3
+struct _ZSt10in_place_t;
+# 80 "/usr/include/c++/12/bits/stl_pair.h" 3
+struct _ZSt21piecewise_construct_t;
+# 167 "/usr/include/c++/12/limits" 3
+enum _ZSt17float_round_style {
+# 169 "/usr/include/c++/12/limits" 3
+_ZSt19round_indeterminate = (-1),
+# 170 "/usr/include/c++/12/limits" 3
+_ZSt17round_toward_zero,
+# 171 "/usr/include/c++/12/limits" 3
+_ZSt16round_to_nearest,
+# 172 "/usr/include/c++/12/limits" 3
+_ZSt21round_toward_infinity,
+# 173 "/usr/include/c++/12/limits" 3
+_ZSt25round_toward_neg_infinity};
+# 182 "/usr/include/c++/12/limits" 3
+enum _ZSt18float_denorm_style {
+# 185 "/usr/include/c++/12/limits" 3
+_ZSt20denorm_indeterminate = (-1),
+# 187 "/usr/include/c++/12/limits" 3
+_ZSt13denorm_absent,
+# 189 "/usr/include/c++/12/limits" 3
+_ZSt14denorm_present};
+# 202 "/usr/include/c++/12/limits" 3
+struct _ZSt21__numeric_limits_base;
+# 384 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIbE;
+# 453 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIcE;
+# 520 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIaE;
+# 590 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIhE;
+# 663 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIwE;
+# 797 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIDsE;
+# 858 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIDiE;
+# 920 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIsE;
+# 987 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsItE;
+# 1060 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIiE;
+# 1127 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIjE;
+# 1199 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIlE;
+# 1266 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsImE;
+# 1339 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIxE;
+# 1409 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIyE;
+# 1637 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsInE;
+# 1637 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIoE;
+# 1670 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIfE;
+# 1745 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIdE;
+# 1820 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIeE;
+# 214 "/usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h" 3
+typedef unsigned long size_t;
+#include "crt/device_runtime.h"
+# 298 "/usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h" 3
+typedef unsigned long _ZSt6size_t;
+# 535 "/usr/include/c++/12/bits/cpp_type_traits.h" 3
+struct _ZSt24__is_memcmp_ordered_withISt4byteS0_Lb1EE {};
+# 196 "/usr/include/c++/12/bits/utility.h" 3
+struct _ZSt10in_place_t {};
+# 80 "/usr/include/c++/12/bits/stl_pair.h" 3
+struct _ZSt21piecewise_construct_t {};
+# 202 "/usr/include/c++/12/limits" 3
+struct _ZSt21__numeric_limits_base {};
+# 384 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIbE {};
+# 453 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIcE {};
+# 520 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIaE {};
+# 590 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIhE {};
+# 663 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIwE {};
+# 797 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIDsE {};
+# 858 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIDiE {};
+# 920 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIsE {};
+# 987 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsItE {};
+# 1060 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIiE {};
+# 1127 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIjE {};
+# 1199 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIlE {};
+# 1266 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsImE {};
+# 1339 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIxE {};
+# 1409 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIyE {};
+# 1637 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsInE {};
+# 1637 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIoE {};
+# 1670 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIfE {};
+# 1745 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIdE {};
+# 1820 "/usr/include/c++/12/limits" 3
+struct _ZSt14numeric_limitsIeE {};
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+# 3634 "/usr/include/crt/device_functions.h" 3
+___device__(extern  __no_sc__) unsigned __cudaPushCallConfiguration(struct dim3, struct dim3, size_t, struct CUstream_st *);
+# 4 "src/solution_optimized.cu"
+__global__ __var_used__ extern void _Z28matrix_multiplication_kernelPKfS0_Pfiii(const float *, const float *, float *, int, int, int);
+# 423 "/usr/include/vector_types.h" 3
+___device__(extern  __no_sc__) __inline__ void _ZN4dim3C1Ejjj(struct dim3 *const, unsigned, unsigned, unsigned);
+___device__(extern  __no_sc__) __inline__ void _ZN4dim3C2Ejjj(struct dim3 *const, unsigned, unsigned, unsigned);
+#include "common_functions.h"
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+#if !defined(__CUDABE__)
+#endif
+# 4 "src/solution_optimized.cu"
+__global__ __var_used__ void _Z28matrix_multiplication_kernelPKfS0_Pfiii(
+# 4 "src/solution_optimized.cu"
+const float *A, 
+# 4 "src/solution_optimized.cu"
+const float *B, 
+# 4 "src/solution_optimized.cu"
+float *C, 
+# 4 "src/solution_optimized.cu"
+int M, 
+# 4 "src/solution_optimized.cu"
+int N, 
+# 4 "src/solution_optimized.cu"
+int K){
+# 4 "src/solution_optimized.cu"
+{
+# 5 "src/solution_optimized.cu"
+ int __cuda_local_var_35636_9_non_const_y;
+# 6 "src/solution_optimized.cu"
+ int __cuda_local_var_35637_9_non_const_x;
+# 8 "src/solution_optimized.cu"
+ float __cuda_local_var_35639_11_non_const_sum;
+# 5 "src/solution_optimized.cu"
+__cuda_local_var_35636_9_non_const_y = ((int)(((blockIdx.x) * (blockDim.x)) + (threadIdx.x)));
+# 6 "src/solution_optimized.cu"
+__cuda_local_var_35637_9_non_const_x = ((int)(((blockIdx.y) * (blockDim.y)) + (threadIdx.y)));
+# 8 "src/solution_optimized.cu"
+__cuda_local_var_35639_11_non_const_sum = (0.0F);
+# 10 "src/solution_optimized.cu"
+if ((__cuda_local_var_35637_9_non_const_x < M) && (__cuda_local_var_35636_9_non_const_y < K))
+# 10 "src/solution_optimized.cu"
+{
+# 12 "src/solution_optimized.cu"
+{
+# 12 "src/solution_optimized.cu"
+ int i;
+# 12 "src/solution_optimized.cu"
+i = 0;
+# 12 "src/solution_optimized.cu"
+for (; (i < N); i++)
+# 12 "src/solution_optimized.cu"
+{
+# 14 "src/solution_optimized.cu"
+__cuda_local_var_35639_11_non_const_sum += ((A[((__cuda_local_var_35637_9_non_const_x * N) + i)]) * (B[((i * K) + __cuda_local_var_35636_9_non_const_y)]));
+# 15 "src/solution_optimized.cu"
+} }
+# 16 "src/solution_optimized.cu"
+(C[((__cuda_local_var_35637_9_non_const_x * K) + __cuda_local_var_35636_9_non_const_y)]) = __cuda_local_var_35639_11_non_const_sum;
+# 17 "src/solution_optimized.cu"
+} 
+# 18 "src/solution_optimized.cu"
+}}
+__asm__(".align 2");
+# 423 "/usr/include/vector_types.h" 3
+___device__( __no_sc__) __inline__ void _ZN4dim3C1Ejjj( struct dim3 *const this, 
+# 423 "/usr/include/vector_types.h" 3
+unsigned vx, 
+# 423 "/usr/include/vector_types.h" 3
+unsigned vy, 
+# 423 "/usr/include/vector_types.h" 3
+unsigned vz){
+# 423 "/usr/include/vector_types.h" 3
+{
+# 423 "/usr/include/vector_types.h" 3
+(this->x) = vx;
+# 423 "/usr/include/vector_types.h" 3
+(this->y) = vy;
+# 423 "/usr/include/vector_types.h" 3
+(this->z) = vz; 
+# 423 "/usr/include/vector_types.h" 3
+}}
+__asm__(".align 2");
+___device__( __no_sc__) __inline__ void _ZN4dim3C2Ejjj( struct dim3 *const this,  unsigned __T0,  unsigned __T1,  unsigned __T2){ {  _ZN4dim3C1Ejjj(this, __T0, __T1, __T2);  }}

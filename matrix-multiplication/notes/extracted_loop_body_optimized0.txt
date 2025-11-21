@@ -1,0 +1,59 @@
+// Calculate A[x*N+i] address
+IMUL R13, R10, R7 ;
+IADD R13, R13, R12 ;
+I2I.S32.S32 R13, R13 ;
+SHR R14, R13, 0x1f ;
+MOV R15, R14 ;
+MOV R14, R13 ;
+MOV R13, R14 ;
+MOV R14, R15 ;
+MOV R15, R13 ;
+MOV R13, R14 ;
+SHF.L.U64 R13, R15, 0x2, R13 ;
+SHL R15, R15, 0x2 ;
+IADD R15.CC, R3, R15 ;
+IADD.X R13, R4, R13 ;
+MOV R15, R15 ;
+MOV R13, R13 ;
+LEA R14.CC, R15, RZ ;
+LEA.HI.X P0, R15, R15, RZ, R13 ;
+MOV R14, R14 ;
+MOV R15, R15 ;
+LD.E R13, [R14], P0 ;              // Load A[x*N+i]
+
+// Calculate B[i*K+y] address
+IMUL R14, R12, R8 ;
+IADD R14, R14, R9 ;
+I2I.S32.S32 R14, R14 ;
+SHR R15, R14, 0x1f ;
+MOV R14, R14 ;
+MOV R15, R15 ;
+MOV R16, R14 ;
+MOV R14, R15 ;
+MOV R15, R16 ;
+MOV R16, R14 ;
+SHF.L.U64 R16, R15, 0x2, R16 ;
+SHL R15, R15, 0x2 ;
+IADD R15.CC, R5, R15 ;
+IADD.X R16, R6, R16 ;
+MOV R15, R15 ;
+MOV R16, R16 ;
+LEA R14.CC, R15, RZ ;
+LEA.HI.X P0, R15, R15, RZ, R16 ;
+MOV R14, R14 ;
+MOV R15, R15 ;
+LD.E R14, [R14], P0 ;              // Load B[i*K+y]
+
+// Compute and accumulate
+FMUL R13, R13, R14 ;               // R13 = A * B
+FADD R13, R11, R13 ;               // R13 = sum + (A*B)
+MOV R14, R13 ;                     // Save updated sum
+
+// Increment loop counter
+IADD32I R11, R12, 0x1 ;
+MOV R11, R11 ;
+MOV R13, R14 ;
+MOV R13, R13 ;
+MOV R14, R11 ;
+MOV R14, R14 ;
+BRA 0x360 ;                        // Loop back
